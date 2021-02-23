@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## Gen/Julia Environment Set-up Tutorial
 
-You can use the [editor on GitHub](https://github.com/dgarage/gen-on-anaconda-tutorial/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Download [Julia Installable](https://julialang.org/). As of 2021/02/21, the latest version is 1.5.3 on Mac.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Set up Julia on Mac
 
-### Markdown
+Follow [the instruction](https://julialang.org/downloads/platform/#macos). Copy the Julia binary to `Applications` folder and create a symbolic link `julia` to the binary in your `PATH`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Syntax highlighting for Julia files
+
+[julia-vim](https://github.com/JuliaEditorSupport/julia-vim) maybe helpful to highlight Julia syntax when you open a `.jl` file in Vi like editors. 
 
 ```markdown
 Syntax highlighted code block
